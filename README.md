@@ -20,6 +20,9 @@ https://github.com/algas/vagrant-ansible-example
 `git clone https://github.com/algas/vagrant-ansible-example.git`
 3. Vagrant 実行  
 `cd vagrant-ansible-example && vagrant up`
+4. 実行確認  
+`curl -v http://localhost:25000/hello`
+
 
 ## Structure
 
