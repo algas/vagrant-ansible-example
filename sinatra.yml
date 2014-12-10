@@ -1,0 +1,12 @@
+---
+- hosts: example
+  sudo: yes
+  tasks:
+    - name: gem install sinatra
+      gem: name=sinatra
+
+    - name: copy sinatra main file
+      copy: src=hello.rb dest=/etc/hello.rb owner=vagrant group=vagrant mode=0744
+
+    - name: start sinatra
+      command: /usr/bin/ruby hello.rb -e production chdir=/etc
