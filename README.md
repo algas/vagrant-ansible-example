@@ -9,8 +9,8 @@ https://github.com/algas/vagrant-ansible-example
 
 以下の２つをあらかじめインストールしておいてください。
 
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Vagrant](https://www.vagrantup.com/downloads.html)
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads) 4.3.20
+* [Vagrant](https://www.vagrantup.com/downloads.html) 1.6.5
 
 ## Usage
 
