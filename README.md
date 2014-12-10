@@ -14,15 +14,28 @@ https://github.com/algas/vagrant-ansible-example
 
 ## Usage
 
+### 初回時
+
 1. Ansible のインストール    
 `pip install ansible`
 2. Repository の取得  
 `git clone https://github.com/algas/vagrant-ansible-example.git`
-3. Vagrant 実行  
+3. Vagrant 起動と Ansible 実行  
 `cd vagrant-ansible-example && vagrant up`
 4. 実行確認  
 `curl -v http://localhost:25000/hello`
 
+### ２回目以降
+
+1. Ansible 実行  
+`vagrant provision`
+2. 実行確認  
+`curl -v http://localhost:25000/hello`
+
+### 終了
+
+1. Vagrant 停止  
+`vagrant halt`
 
 ## Structure
 
